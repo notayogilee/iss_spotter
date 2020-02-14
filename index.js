@@ -13,7 +13,7 @@ fetchMyIP((error, ip) => {
     }
     // console.log("It worked!  Returned Coords: ", data);
     fetchISSFlyOverTimes(data, (error, passes) => {
-      if(error) {
+      if (error) {
         console.log('It didn\'t work!', error);
         return;
       }
